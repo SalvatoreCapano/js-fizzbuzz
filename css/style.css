@@ -1,0 +1,57 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+
+    background-color: #323031;
+    color: aliceblue;
+}
+
+.container {
+    max-width: 960px;
+
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 2.5rem 0;
+    font-size: 5em;
+}
+
+.myList {
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.myListElement {
+    width: 100px;
+    height: 100px;
+    
+    background-color: #177E89;
+    font-weight: bold;
+
+    text-align: center;
+    line-height: 100px;
+}
+
+.myFizz {
+    background-color: #9B2915;
+}
+
+.myBuzz {
+    background-color: #E9B44C;
+}
+
+.myFizzBuzz {
+    background-color: #083D77;
+}
